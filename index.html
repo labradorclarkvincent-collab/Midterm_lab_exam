@@ -10,58 +10,29 @@
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
           rel="stylesheet">
 </head>
 
 <body>
 
-<!-- ================= TOP BAR ================= -->
-
-<div class="top-bar">
-
-    <div class="top-container">
-
-        <span>
-            UNIVERSITY CAMPUS
-        </span>
-
-        <span>
-            Leadership • Service • Excellence
-        </span>
-
-    </div>
-
-</div>
-
-
 <!-- ================= NAVIGATION ================= -->
 
-<nav class="navbar">
+<header class="header">
 
-    <div class="nav-container">
+    <nav class="navbar">
 
-        <a href="index.html" class="logo">
+        <a href="#home" class="logo">
 
-            <div class="logo-box">
+            <div class="logo-mark">
                 CL
             </div>
 
-            <div class="logo-text">
-
-                <strong>
-                    CAMPUS
-                </strong>
-
-                <small>
-                    LEADERSHIP
-                </small>
-
+            <div class="logo-info">
+                <strong>CAMPUS</strong>
+                <span>LEADERSHIP</span>
             </div>
 
         </a>
@@ -74,23 +45,13 @@
 
         <div class="nav-links" id="navLinks">
 
-            <a href="#home">
-                Home
-            </a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#leadership">Leadership</a>
+            <a href="#colleges">Colleges</a>
+            <a href="#faculty">Faculty</a>
 
-            <a href="#about">
-                About
-            </a>
-
-            <a href="#leadership">
-                Leadership
-            </a>
-
-            <a href="#colleges">
-                Colleges
-            </a>
-
-            <a href="AKWE2K26.html" class="nav-highlight">
+            <a href="AKWE2K26.html" class="akwe-nav">
                 AKWE 2026
             </a>
 
@@ -100,91 +61,190 @@
 
         </div>
 
-    </div>
+    </nav>
 
-</nav>
+</header>
 
 
 <!-- ================= HERO ================= -->
 
 <section class="hero" id="home">
 
+    <div class="hero-background"></div>
+
     <div class="hero-content">
 
-        <div class="hero-tag">
+        <div class="hero-badge">
+            <span></span>
             UNIVERSITY COMMUNITY
         </div>
 
         <h1>
-            Meet the
-            <span>Campus Leadership</span>
+            Leadership That
+            <em>Inspires.</em>
         </h1>
 
         <p>
             Discover the leaders, administrators, deans,
-            faculty members, and staff who guide our
-            university community toward excellence,
-            innovation, and meaningful service.
+            faculty members, and staff who shape our
+            university community through service,
+            excellence, and innovation.
         </p>
 
-        <div class="hero-buttons">
 
-            <a href="#leadership"
-               class="btn btn-gold">
-                EXPLORE LEADERSHIP
+        <div class="hero-actions">
+
+            <a href="#leadership" class="primary-btn">
+                Explore Leadership
+                <span>→</span>
             </a>
 
-            <a href="AKWE2k26.html"
-               class="btn btn-outline">
-                AKWE 2026
+            <a href="AKWE2K26.html" class="secondary-btn">
+                Explore AKWE 2026
             </a>
+
+        </div>
+
+
+        <div class="hero-info">
+
+            <div>
+                <strong>01</strong>
+                <span>University President</span>
+            </div>
+
+            <div>
+                <strong>04</strong>
+                <span>Academic Colleges</span>
+            </div>
+
+            <div>
+                <strong>08+</strong>
+                <span>Faculty & Staff</span>
+            </div>
 
         </div>
 
     </div>
 
-    <div class="hero-decoration hero-circle-one"></div>
-    <div class="hero-decoration hero-circle-two"></div>
+
+    <div class="hero-image">
+
+        <div class="hero-image-frame">
+
+            <img src="image/pres.png"
+                 alt="University President">
+
+        </div>
+
+        <div class="hero-image-label">
+
+            <span>UNIVERSITY PRESIDENT</span>
+
+            <strong>
+                Dr. Nordy Siason
+            </strong>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-decoration decoration-one"></div>
+    <div class="hero-decoration decoration-two"></div>
 
 </section>
 
 
-<!-- ================= WELCOME ================= -->
+<!-- ================= ABOUT ================= -->
 
-<section class="welcome" id="about">
+<section class="about section" id="about">
 
-    <div class="container welcome-grid">
+    <div class="container">
 
-        <div>
+        <div class="section-intro">
 
-            <span class="section-tag">
-                WELCOME
-            </span>
+            <div>
 
-            <h2>
-                Leadership at the
-                <span>Heart of Our Campus</span>
-            </h2>
+                <span class="eyebrow">
+                    01 — ABOUT
+                </span>
 
-        </div>
+                <h2>
+                    Leadership at the
+                    <span>heart of campus.</span>
+                </h2>
 
-
-        <div>
+            </div>
 
             <p>
-                Our campus is strengthened by dedicated
+                Our university is strengthened by dedicated
                 leaders and professionals who work together
                 to provide quality education, effective
                 administration, and meaningful opportunities
                 for students.
             </p>
 
-            <p>
-                This website introduces the people who
-                contribute to the development of our
-                university community and highlights
-                activities that bring our campus together.
-            </p>
+        </div>
+
+
+        <div class="about-grid">
+
+            <div class="about-card about-main">
+
+                <div class="about-number">
+                    01
+                </div>
+
+                <h3>
+                    A Community
+                    Built on Service
+                </h3>
+
+                <p>
+                    Our campus leadership works to create an
+                    environment where students, faculty, and
+                    staff can grow, collaborate, and contribute
+                    to the development of the university.
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <span class="card-icon">
+                    ✦
+                </span>
+
+                <h3>
+                    Excellence
+                </h3>
+
+                <p>
+                    Supporting academic and institutional
+                    excellence through effective leadership.
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <span class="card-icon">
+                    ↗
+                </span>
+
+                <h3>
+                    Innovation
+                </h3>
+
+                <p>
+                    Encouraging new ideas, opportunities,
+                    and meaningful campus experiences.
+                </p>
+
+            </div>
 
         </div>
 
@@ -193,207 +253,204 @@
 </section>
 
 
-<!-- ================= STATISTICS ================= -->
+<!-- ================= STATS ================= -->
 
-<section class="stats">
+<section class="stats-section">
 
-    <div class="container stats-grid">
+    <div class="container stats">
 
-        <div class="stat-item">
+        <div class="stat">
 
-            <strong>
-                01
-            </strong>
+            <strong>01</strong>
 
-            <span>
-                University President
-            </span>
+            <span>University President</span>
 
         </div>
 
 
-        <div class="stat-item">
+        <div class="stat">
 
-            <strong>
-                02
-            </strong>
+            <strong>02</strong>
 
-            <span>
-                Campus Officials
-            </span>
+            <span>Campus Officials</span>
 
         </div>
 
 
-        <div class="stat-item">
+        <div class="stat">
 
-            <strong>
-                04
-            </strong>
+            <strong>04</strong>
 
-            <span>
-                Academic Colleges
-            </span>
+            <span>Academic Colleges</span>
 
         </div>
 
 
-        <div class="stat-item">
+        <div class="stat">
 
-            <strong>
-                08+
-            </strong>
+            <strong>08+</strong>
 
-            <span>
-                Faculty & Staff
-            </span>
+            <span>Faculty & Staff</span>
 
         </div>
 
     </div>
 
 </section>
-
-
-<!-- ================= MAIN ================= -->
-
-<main class="container">
 
 
 <!-- ================= LEADERSHIP ================= -->
 
-<section class="website-section" id="leadership">
+<section class="section" id="leadership">
 
-    <div class="section-header">
+    <div class="container">
 
-        <div>
+        <div class="section-heading">
 
-            <span class="section-tag">
-                01 / LEADERSHIP
-            </span>
+            <div>
 
-            <h2>
-                Our Leaders
-            </h2>
+                <span class="eyebrow">
+                    02 — LEADERSHIP
+                </span>
 
-        </div>
+                <h2>
+                    Our <span>Leaders</span>
+                </h2>
 
-        <p>
-            Meet the people who provide leadership,
-            direction, and support throughout the campus.
-        </p>
-
-    </div>
-
-
-    <!-- UNIVERSITY PRESIDENT -->
-
-    <div class="president">
-
-        <div class="president-image">
-
-            <img src="image/pres.png"
-                 alt="Dr. Nordy Siason">
-
-        </div>
-
-
-        <div class="president-info">
-
-            <span class="position">
-                UNIVERSITY PRESIDENT
-            </span>
-
-            <h3>
-                Dr. Nordy Siason
-            </h3>
-
-            <div class="gold-line"></div>
+            </div>
 
             <p>
-                As University President, Dr. Nordy Siason
-                provides institutional leadership and works
-                toward the continued development and
-                excellence of the university community.
+                Meet the people who provide direction,
+                leadership, and support throughout the campus.
             </p>
-
-            <a href="#colleges"
-               class="text-link">
-                VIEW ACADEMIC LEADERS →
-            </a>
 
         </div>
 
-    </div>
 
+        <!-- PRESIDENT -->
 
-    <!-- CAMPUS OFFICIALS -->
+        <div class="president-card">
 
-    <h3 class="subheading">
-        Campus Administration
-    </h3>
+            <div class="president-photo">
 
+                <img src="image/pres.png"
+                     alt="Dr. Nordy Siason">
 
-    <div class="leader-grid">
-
-
-        <article class="leader-card">
-
-            <div class="leader-photo">
-
-                <img src="image/campusAd.png"
-                     alt="Dr. Micheal B. Dizon">
+                <div class="photo-number">
+                    01
+                </div>
 
             </div>
 
-            <div class="leader-content">
 
-                <span class="position">
-                    CAMPUS ADMINISTRATOR
+            <div class="president-details">
+
+                <span class="role">
+                    UNIVERSITY PRESIDENT
                 </span>
 
                 <h3>
-                    Dr. Micheal B. Dizon
+                    Dr. Nordy Siason
                 </h3>
 
-                <p>
-                    Campus administration and
-                    institutional leadership.
-                </p>
-
-            </div>
-
-        </article>
-
-
-        <article class="leader-card">
-
-            <div class="leader-photo">
-
-                <img src="image/melby.png"
-                     alt="Mrs. Melby Parreño">
-
-            </div>
-
-            <div class="leader-content">
-
-                <span class="position">
-                    ADMINISTRATIVE OFFICER
-                </span>
-
-                <h3>
-                    Mrs. Melby Parreño
-                </h3>
+                <div class="line"></div>
 
                 <p>
-                    Supporting efficient administrative
-                    operations and campus services.
+                    As University President, Dr. Nordy Siason
+                    provides institutional leadership and works
+                    toward the continued development and
+                    excellence of the university community.
                 </p>
+
+                <a href="#colleges" class="arrow-link">
+                    View Academic Leadership
+                    <span>→</span>
+                </a>
 
             </div>
 
-        </article>
+        </div>
 
+
+        <!-- CAMPUS ADMINISTRATION -->
+
+        <div class="subsection-title">
+
+            <div>
+                <span>01</span>
+                <h3>Campus Administration</h3>
+            </div>
+
+            <p>
+                Supporting the daily operation and
+                development of the university campus.
+            </p>
+
+        </div>
+
+
+        <div class="leader-grid">
+
+
+            <article class="leader-card">
+
+                <div class="leader-image">
+
+                    <img src="image/campusAd.png"
+                         alt="Dr. Micheal B. Dizon">
+
+                </div>
+
+                <div class="leader-body">
+
+                    <span class="role">
+                        CAMPUS ADMINISTRATOR
+                    </span>
+
+                    <h3>
+                        Dr. Micheal B. Dizon
+                    </h3>
+
+                    <p>
+                        Campus administration and
+                        institutional leadership.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="leader-card">
+
+                <div class="leader-image">
+
+                    <img src="image/melby.png"
+                         alt="Mrs. Melby Parreño">
+
+                </div>
+
+                <div class="leader-body">
+
+                    <span class="role">
+                        ADMINISTRATIVE OFFICER
+                    </span>
+
+                    <h3>
+                        Mrs. Melby Parreño
+                    </h3>
+
+                    <p>
+                        Supporting efficient administrative
+                        operations and campus services.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+        </div>
 
     </div>
 
@@ -402,168 +459,195 @@
 
 <!-- ================= COLLEGES ================= -->
 
-<section class="website-section" id="colleges">
+<section class="section light-section" id="colleges">
 
-    <div class="section-header">
+    <div class="container">
 
-        <div>
+        <div class="section-heading">
 
-            <span class="section-tag">
-                02 / ACADEMICS
-            </span>
+            <div>
 
-            <h2>
-                Academic Colleges
-            </h2>
+                <span class="eyebrow">
+                    03 — ACADEMICS
+                </span>
+
+                <h2>
+                    Academic <span>Colleges</span>
+                </h2>
+
+            </div>
+
+            <p>
+                Academic colleges guided by dedicated
+                deans committed to student success.
+            </p>
 
         </div>
 
-        <p>
-            Our academic colleges are guided by
-            dedicated deans committed to academic
-            development and student success.
-        </p>
 
-    </div>
+        <div class="college-grid">
 
 
-    <div class="college-grid">
+            <article class="college-card">
+
+                <div class="college-image">
+
+                    <img src="image/coed.png"
+                         alt="College of Education">
+
+                    <span>
+                        01
+                    </span>
+
+                </div>
+
+                <div class="college-body">
+
+                    <small>
+                        COLLEGE 01
+                    </small>
+
+                    <h3>
+                        College of Education
+                    </h3>
+
+                    <p>
+                        Dean:
+                        <strong>
+                            Dr. Rene Estomo
+                        </strong>
+                    </p>
+
+                    <a href="#" class="card-arrow">
+                        →
+                    </a>
+
+                </div>
+
+            </article>
 
 
-        <!-- EDUCATION -->
+            <article class="college-card">
 
-        <article class="college-card">
+                <div class="college-image">
 
-            <div class="college-image">
+                    <img src="image/cbmsd.png"
+                         alt="College of Business Management">
 
-                <img src="image/coed.png"
-                     alt="College of Education">
+                    <span>
+                        02
+                    </span>
 
-            </div>
+                </div>
 
-            <div class="college-content">
+                <div class="college-body">
 
-                <span>
-                    COLLEGE 01
-                </span>
+                    <small>
+                        COLLEGE 02
+                    </small>
 
-                <h3>
-                    College of Education
-                </h3>
+                    <h3>
+                        College of Business,
+                        Management, and
+                        Sustainable Development
+                    </h3>
 
-                <p>
-                    Dean:
-                    <strong>
-                        Dr. Rene Estomo
-                    </strong>
-                </p>
+                    <p>
+                        Dean:
+                        <strong>
+                            Dr. Janice H. Ching
+                        </strong>
+                    </p>
 
-            </div>
+                    <a href="#" class="card-arrow">
+                        →
+                    </a>
 
-        </article>
+                </div>
 
-
-        <!-- CBMSD -->
-
-        <article class="college-card">
-
-            <div class="college-image">
-
-                <img src="image/cbmsd.png"
-                     alt="College of Business Management">
-
-            </div>
-
-            <div class="college-content">
-
-                <span>
-                    COLLEGE 02
-                </span>
-
-                <h3>
-                    College of Business,
-                    Management, and
-                    Sustainable Development
-                </h3>
-
-                <p>
-                    Dean:
-                    <strong>
-                        Dr. Janice H. Ching
-                    </strong>
-                </p>
-
-            </div>
-
-        </article>
+            </article>
 
 
-        <!-- AGRICULTURE -->
+            <article class="college-card">
 
-        <article class="college-card">
+                <div class="college-image">
 
-            <div class="college-image">
+                    <img src="image/coag.png"
+                         alt="College of Agriculture">
 
-                <img src="image/coag.png"
-                     alt="College of Agriculture">
+                    <span>
+                        03
+                    </span>
 
-            </div>
+                </div>
 
-            <div class="college-content">
+                <div class="college-body">
 
-                <span>
-                    COLLEGE 03
-                </span>
+                    <small>
+                        COLLEGE 03
+                    </small>
 
-                <h3>
-                    College of Agriculture
-                </h3>
+                    <h3>
+                        College of Agriculture
+                    </h3>
 
-                <p>
-                    Dean:
-                    <strong>
-                        Dr. Noli Gerona
-                    </strong>
-                </p>
+                    <p>
+                        Dean:
+                        <strong>
+                            Dr. Noli Gerona
+                        </strong>
+                    </p>
 
-            </div>
+                    <a href="#" class="card-arrow">
+                        →
+                    </a>
 
-        </article>
+                </div>
+
+            </article>
 
 
-        <!-- INFORMATICS -->
+            <article class="college-card">
 
-        <article class="college-card">
+                <div class="college-image">
 
-            <div class="college-image">
+                    <img src="image/ccs.png"
+                         alt="College of Informatics">
 
-                <img src="image/ccs.png"
-                     alt="College of Informatics">
+                    <span>
+                        04
+                    </span>
 
-            </div>
+                </div>
 
-            <div class="college-content">
+                <div class="college-body">
 
-                <span>
-                    COLLEGE 04
-                </span>
+                    <small>
+                        COLLEGE 04
+                    </small>
 
-                <h3>
-                    College of Informatics
-                    and Computing Innovations
-                </h3>
+                    <h3>
+                        College of Informatics
+                        and Computing Innovations
+                    </h3>
 
-                <p>
-                    Dean:
-                    <strong>
-                        Dr. Wenda D. Panes
-                    </strong>
-                </p>
+                    <p>
+                        Dean:
+                        <strong>
+                            Dr. Wenda D. Panes
+                        </strong>
+                    </p>
 
-            </div>
+                    <a href="#" class="card-arrow">
+                        →
+                    </a>
 
-        </article>
+                </div>
 
+            </article>
+
+
+        </div>
 
     </div>
 
@@ -572,197 +656,230 @@
 
 <!-- ================= FACULTY ================= -->
 
-<section class="website-section faculty" id="faculty">
+<section class="section" id="faculty">
 
-    <div class="section-header">
+    <div class="container">
 
-        <div>
+        <div class="section-heading">
 
-            <span class="section-tag">
-                03 / ACADEMIC COMMUNITY
-            </span>
+            <div>
 
-            <h2>
-                Faculty & Staff
-            </h2>
+                <span class="eyebrow">
+                    04 — ACADEMIC COMMUNITY
+                </span>
+
+                <h2>
+                    Faculty <span>& Staff</span>
+                </h2>
+
+            </div>
+
+            <p>
+                Professionals supporting teaching,
+                learning, research, and campus services.
+            </p>
 
         </div>
 
-        <p>
-            Meet the professionals supporting teaching,
-            learning, research, and campus services.
-        </p>
 
-    </div>
-
-
-    <h3 class="faculty-title">
-        College of Informatics and Computing Innovations
-    </h3>
-
-
-    <div class="faculty-grid">
-
-
-        <article class="faculty-card">
-
-            <img src="image/dave.png"
-                 alt="Instr. Dave Allan Tagacay">
+        <div class="faculty-header">
 
             <div>
 
                 <span>
-                    FACULTY
+                    COLLEGE OF INFORMATICS AND
+                    COMPUTING INNOVATIONS
                 </span>
 
                 <h3>
-                    Instr. Dave Allan Tagacay
+                    Meet Our Faculty
                 </h3>
 
             </div>
 
-        </article>
+        </div>
 
 
-        <article class="faculty-card">
-
-            <img src="image/Ian.png"
-                 alt="Dr. Ian Sugatan">
-
-            <div>
-
-                <span>
-                    FACULTY
-                </span>
-
-                <h3>
-                    Dr. Ian Sugatan
-                </h3>
-
-            </div>
-
-        </article>
+        <div class="faculty-grid">
 
 
-        <article class="faculty-card">
+            <article class="faculty-card">
 
-            <img src="image/Ann.png"
-                 alt="Dr. Analiza G. Alingalan">
+                <div class="faculty-image">
 
-            <div>
+                    <img src="image/dave.png"
+                         alt="Instr. Dave Allan Tagacay">
 
-                <span>
-                    FACULTY
-                </span>
+                </div>
 
-                <h3>
-                    Dr. Analiza G. Alingalan
-                </h3>
+                <div class="faculty-info">
 
-            </div>
+                    <span>FACULTY</span>
 
-        </article>
+                    <h3>
+                        Instr. Dave Allan Tagacay
+                    </h3>
 
+                </div>
 
-        <article class="faculty-card">
-
-            <img src="image/weena.png"
-                 alt="Dr. Weena J. Bulnes">
-
-            <div>
-
-                <span>
-                    FACULTY
-                </span>
-
-                <h3>
-                    Dr. Weena J. Bulnes
-                </h3>
-
-            </div>
-
-        </article>
+            </article>
 
 
-        <article class="faculty-card">
+            <article class="faculty-card">
 
-            <img src="image/Dacudao.png"
-                 alt="Dr. Dythe P. Dacudao">
+                <div class="faculty-image">
 
-            <div>
+                    <img src="image/Ian.png"
+                         alt="Dr. Ian Sugatan">
 
-                <span>
-                    FACULTY
-                </span>
+                </div>
 
-                <h3>
-                    Dr. Dythe P. Dacudao
-                </h3>
+                <div class="faculty-info">
 
-            </div>
+                    <span>FACULTY</span>
 
-        </article>
+                    <h3>
+                        Dr. Ian Sugatan
+                    </h3>
 
+                </div>
 
-        <article class="faculty-card">
-
-            <img src="image/ivan.png"
-                 alt="Instr. Ivan Silvestre">
-
-            <div>
-
-                <span>
-                    FACULTY
-                </span>
-
-                <h3>
-                    Instr. Ivan Silvestre
-                </h3>
-
-            </div>
-
-        </article>
+            </article>
 
 
-        <article class="faculty-card">
+            <article class="faculty-card">
 
-            <img src="image/andrea.png"
-                 alt="Andrea Delos Santos">
+                <div class="faculty-image">
 
-            <div>
+                    <img src="image/Ann.png"
+                         alt="Dr. Analiza G. Alingalan">
 
-                <span>
-                    STAFF
-                </span>
+                </div>
 
-                <h3>
-                    Andrea Delos Santos
-                </h3>
+                <div class="faculty-info">
 
-            </div>
+                    <span>FACULTY</span>
 
-        </article>
+                    <h3>
+                        Dr. Analiza G. Alingalan
+                    </h3>
+
+                </div>
+
+            </article>
 
 
-        <article class="faculty-card">
+            <article class="faculty-card">
 
-            <img src="image/mike.png"
-                 alt="Jay Micheal Borcillo">
+                <div class="faculty-image">
 
-            <div>
+                    <img src="image/weena.png"
+                         alt="Dr. Weena J. Bulnes">
 
-                <span>
-                    STAFF
-                </span>
+                </div>
 
-                <h3>
-                    Jay Micheal Borcillo
-                </h3>
+                <div class="faculty-info">
 
-            </div>
+                    <span>FACULTY</span>
 
-        </article>
+                    <h3>
+                        Dr. Weena J. Bulnes
+                    </h3>
 
+                </div>
+
+            </article>
+
+
+            <article class="faculty-card">
+
+                <div class="faculty-image">
+
+                    <img src="image/Dacudao.png"
+                         alt="Dr. Dythe P. Dacudao">
+
+                </div>
+
+                <div class="faculty-info">
+
+                    <span>FACULTY</span>
+
+                    <h3>
+                        Dr. Dythe P. Dacudao
+                    </h3>
+
+                </div>
+
+            </article>
+
+
+            <article class="faculty-card">
+
+                <div class="faculty-image">
+
+                    <img src="image/ivan.png"
+                         alt="Instr. Ivan Silvestre">
+
+                </div>
+
+                <div class="faculty-info">
+
+                    <span>FACULTY</span>
+
+                    <h3>
+                        Instr. Ivan Silvestre
+                    </h3>
+
+                </div>
+
+            </article>
+
+
+            <article class="faculty-card">
+
+                <div class="faculty-image">
+
+                    <img src="image/andrea.png"
+                         alt="Andrea Delos Santos">
+
+                </div>
+
+                <div class="faculty-info">
+
+                    <span>STAFF</span>
+
+                    <h3>
+                        Andrea Delos Santos
+                    </h3>
+
+                </div>
+
+            </article>
+
+
+            <article class="faculty-card">
+
+                <div class="faculty-image">
+
+                    <img src="image/mike.png"
+                         alt="Jay Micheal Borcillo">
+
+                </div>
+
+                <div class="faculty-info">
+
+                    <span>STAFF</span>
+
+                    <h3>
+                        Jay Micheal Borcillo
+                    </h3>
+
+                </div>
+
+            </article>
+
+
+        </div>
 
     </div>
 
@@ -773,90 +890,111 @@
 
 <section class="akwe-section">
 
-    <div class="akwe-content">
+    <div class="akwe-overlay"></div>
 
-        <span class="section-tag">
-            CAMPUS EVENT
-        </span>
+    <div class="container akwe-container">
 
-        <h2>
-            AKWE
-            <span>2026</span>
-        </h2>
+        <div class="akwe-text">
 
-        <p>
-            Explore the activities, performances,
-            achievements, and memorable moments
-            from the different colleges during AKWE 2026.
-        </p>
+            <span class="eyebrow">
+                05 — CAMPUS EVENT
+            </span>
 
-        <a href="akwe2026.html"
-           class="btn btn-gold">
-            VIEW AKWE 2026
-        </a>
+            <h2>
+                AKWE
+                <span>2026</span>
+            </h2>
 
-    </div>
+            <p>
+                Explore activities, performances,
+                achievements, and memorable moments
+                from the different colleges during
+                AKWE 2026.
+            </p>
+
+            <a href="AKWE2K26.html"
+               class="primary-btn">
+                View AKWE 2026
+                <span>→</span>
+            </a>
+
+        </div>
 
 
-    <div class="akwe-year">
-        2026
+        <div class="akwe-big-number">
+            2026
+        </div>
+
     </div>
 
 </section>
 
 
-</main>
-
-
 <!-- ================= CONTACT ================= -->
 
-<section class="contact" id="contact">
+<section class="contact-section" id="contact">
 
-    <div class="container contact-grid">
+    <div class="container">
 
-        <div>
+        <div class="contact-grid">
 
-            <span class="section-tag">
-                CONTACT
-            </span>
+            <div class="contact-text">
 
-            <h2>
-                Connect With
-                Our Campus
-            </h2>
-
-            <p>
-                For official university information,
-                academic concerns, and campus services,
-                please contact the appropriate university
-                office or authorized personnel.
-            </p>
-
-        </div>
-
-
-        <div class="contact-box">
-
-            <div>
-                <strong>
-                    CAMPUS LEADERSHIP
-                </strong>
-
-                <span>
-                    University Community
+                <span class="eyebrow">
+                    06 — CONTACT
                 </span>
+
+                <h2>
+                    Connect With
+                    <span>Our Campus.</span>
+                </h2>
+
+                <p>
+                    For official university information,
+                    academic concerns, and campus services,
+                    please contact the appropriate university
+                    office or authorized personnel.
+                </p>
+
             </div>
 
 
-            <div>
-                <strong>
-                    ACADEMIC COLLEGES
-                </strong>
+            <div class="contact-cards">
 
-                <span>
-                    Education • Agriculture • Informatics
-                    • Business Management
-                </span>
+                <div class="contact-card">
+
+                    <span>01</span>
+
+                    <div>
+                        <small>
+                            CAMPUS LEADERSHIP
+                        </small>
+
+                        <strong>
+                            University Community
+                        </strong>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-card">
+
+                    <span>02</span>
+
+                    <div>
+                        <small>
+                            ACADEMIC COLLEGES
+                        </small>
+
+                        <strong>
+                            Education • Agriculture •
+                            Informatics • Business Management
+                        </strong>
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
@@ -870,50 +1008,30 @@
 
 <footer>
 
-    <div class="container footer-main">
+    <div class="container footer-top">
 
-        <div class="footer-logo">
+        <a href="#home" class="logo">
 
-            <div class="logo-box">
+            <div class="logo-mark">
                 CL
             </div>
 
-            <div>
-
-                <strong>
-                    CAMPUS LEADERSHIP
-                </strong>
-
-                <p>
-                    Leadership • Service • Excellence
-                </p>
-
+            <div class="logo-info">
+                <strong>CAMPUS</strong>
+                <span>LEADERSHIP</span>
             </div>
 
-        </div>
+        </a>
 
 
-        <div class="footer-menu">
+        <div class="footer-links">
 
-            <a href="#home">
-                Home
-            </a>
-
-            <a href="#about">
-                About
-            </a>
-
-            <a href="#leadership">
-                Leadership
-            </a>
-
-            <a href="#colleges">
-                Colleges
-            </a>
-
-            <a href="akwe2026.html">
-                AKWE 2026
-            </a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#leadership">Leadership</a>
+            <a href="#colleges">Colleges</a>
+            <a href="#faculty">Faculty</a>
+            <a href="AKWE2K26.html">AKWE 2026</a>
 
         </div>
 
@@ -926,6 +1044,10 @@
             © 2026 Campus Leadership.
             All Rights Reserved.
         </p>
+
+        <span>
+            Leadership • Service • Excellence
+        </span>
 
     </div>
 
